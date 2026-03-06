@@ -1,4 +1,4 @@
-# UPMD060320162007
+# UPMD060320262007
 - Criado esboço do "Ínicio" do portfolio.
 - Adicionado nova biblioteca de Icons: Font Awesome.
 - Criado pasta /img.
