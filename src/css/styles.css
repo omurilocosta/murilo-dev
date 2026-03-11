@@ -1,15 +1,35 @@
+@import "./root.css";
+
+body
+{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--mdbg);
+}
+
 a.navbar-brand::after
 {
     content: "</MC>";
-    color: var(--bs-dark);
+    color: #ffffff;
     font-weight: bold;
+    font-size: 1.4rem;
 }
 
-.vrm
+.mdnav-bg
 {
-    background-color: red;
+    background: rgba(5, 5, 5, 0.8); backdrop-filter: blur(12px);
+    z-index: 1000; border-bottom: 1px solid var(--mdborder);
 }
-.ble
+
+.gradBG
 {
-    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 50% -20%, #313131 0%, transparent 50%);
+    z-index: -1;
 }
+
+a.nav-link, #navbarNav { color: #ffffff !important; }
+a.nav-link:hover { color: #313131 !important; transition: .3s all ease-in-out; }
